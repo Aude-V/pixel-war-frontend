@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pixels war</title>
+    <link rel="stylesheet" href="./pixel_war_style_BON.css" />
+    <script src="./pixel_war_script_BON.js" defer></script>
+</head>
+
+
+<body>
+
+    <div class="header">
+        PIXELS WAR
+    </div>
+    <div class="infos">
+        <div class="input">
+            <div>
+            API <br> <br>
+            <input type="text" name="adresse" id="adresse" value="https://pixels-war.oie-lab.net">
+            </div>
+        </div>
+        <div class="input">
+            <div>
+            Map <br> <br>
+            <input type="text" name="map" id="carte" value="TEST">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="column">
+            <div class="map" id="map-container">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+            <br>
+            <div>
+                <input type="color" name="couleur" id="couleur" value="#AA0000">
+            </div>
+        </div>
+        <aside class="infos column">
+                <div class="box">
+                    Coordonnées du pixel survolé&nbsp <br>
+                    <div class="coordonnees"></div>
+                </div>
+                <div class="box">
+                    Temps d'attente&nbsp  <br>
+                    <div class="temps"></div>
+                </div>
+        </aside>
+    </div>
+    <div id="alerte" style="color:red; font-weight:bold; text-align:center;"></div>
+    <br><br><br>
+    <footer class="footer">PIXELS-WAR<div class="footer2">Aude Vendeuvre</div></footer>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+.header{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+    margin:10px;
+    border-radius: 5px;
+    background-color:rgb(165, 42, 42);
+    font-family:"Lucida Sans";
+    font-weight:bold;
+    color:rgb(240, 179, 26);
+    font-size:1.5em;
+}
+.header:hover{
+    transform:scale(1.15);
+    transition:all 1s;
+}
+.infos{
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.input{
+    display:flex;
+    justify-content: space-evenly;
+    border-color: black;
+    padding:10px;
+    margin:10px;
+    border-style: dashed;
+}
+.container{
+    display:flex;
+    margin:50px;
+    padding:50px;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+}
+.map{
+    display:grid;
+    grid-template-columns:repeat(3,10px);
+    grid-template-rows:repeat(3,10px);
+}
+.pixel{
+    width:10px;
+    height:10px;
+    border:1px solid black
+}
+.box{
+    display:flex;
+    padding:10px;
+    margin:10px;
+    background-color: lightgrey;
+    text-align: center;
+    justify-content: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    text-align: center;
+}
+.footer{
+    background-color: gray;
+    width:100%;
+    bottom:0px;
+    left:0px;
+    padding:10px;
+    margin:0px;
+    color:rgb(209, 207, 205)
+}
+.footer2{
+    text-align: end;
+    font-style: italic;
+}
